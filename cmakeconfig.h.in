@@ -1,0 +1,13 @@
+#ifndef LIBEDIT_CONFIG_Hxx
+#define LIBEDIT_CONFIG_Hxx
+#cmakedefine HAVE_CURSES_H
+#cmakedefine HAVE_NCURSES_H
+#cmakedefine HAVE_SYS_CDEFS_H
+#cmakedefine HAVE_TERMCAP_H
+#cmakedefine HAVE_TERM_H
+#define __RENAME(x)
+#define WIDECHAR
+#define CTASSERT(x)
+#include "sys.h"
+#include <stdint.h>
+#endif
